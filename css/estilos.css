@@ -79,25 +79,20 @@
     margin-left: auto;
     margin-right: auto;
     padding-top: 20px;
-    height: auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 100px auto;
-    grid-template-areas: "tituloPrincipal videoPrincipal"
- "parrafoPrincipal videoPrincipal";
-    gap: 20px; }
+    height: auto; }
     .textoVideo .tituloPrincipal {
-      grid-area: tituloPrincipal;
-      justify-self: center;
+      text-align: center;
       color: #ed1650; }
     .textoVideo .parrafoPrincipal {
       grid-area: parrafoPrincipal;
       text-align: justify;
       text-indent: 25px; }
-    .textoVideo .videoPrincipal {
-      grid-area: videoPrincipal;
-      justify-self: center;
-      margin-top: 130px; }
+      .textoVideo .parrafoPrincipal iframe {
+        width: 600px;
+        height: 338px; }
+      .textoVideo .parrafoPrincipal .videoPrincipal {
+        float: right;
+        margin-left: 15px; }
   .notasDiario {
     display: grid;
     width: 90%;
