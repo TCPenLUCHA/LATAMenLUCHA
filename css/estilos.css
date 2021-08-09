@@ -83,7 +83,8 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 100px auto;
-    grid-template-areas: "tituloPrincipal videoPrincipal" "parrafoPrincipal videoPrincipal";
+    grid-template-areas: "tituloPrincipal videoPrincipal"
+ "parrafoPrincipal videoPrincipal";
     gap: 20px; }
     .textoVideo .tituloPrincipal {
       grid-area: tituloPrincipal;
@@ -105,7 +106,8 @@
     margin-bottom: 30px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 20px 350px;
-    grid-template-areas: "titulo titulo" "clarin lanacion";
+    grid-template-areas: "titulo titulo"
+ "clarin lanacion";
     gap: 20px; }
     .notasDiario .tituloDiario {
       color: #ed1650;
@@ -326,7 +328,9 @@
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: auto auto 360px;
-    grid-template-areas: "tituloPrincipal" "parrafoPrincipal" "videoPrincipal";
+    grid-template-areas: "tituloPrincipal"
+ "parrafoPrincipal"
+ "videoPrincipal";
     gap: 20px; }
     .textoVideo .tituloPrincipal {
       grid-area: tituloPrincipal;
@@ -348,7 +352,8 @@
     margin-right: auto;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 20px 310px;
-    grid-template-areas: "titulo titulo" "clarin lanacion";
+    grid-template-areas: "titulo titulo"
+ "clarin lanacion";
     gap: 20px; }
     .notasDiario .tituloDiario {
       color: #ed1650;
@@ -563,7 +568,9 @@
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: auto auto 300px;
-    grid-template-areas: "tituloPrincipal" "parrafoPrincipal" "videoPrincipal";
+    grid-template-areas: "tituloPrincipal"
+ "parrafoPrincipal"
+ "videoPrincipal";
     gap: 20px; }
     .textoVideo .tituloPrincipal {
       grid-area: tituloPrincipal;
@@ -589,7 +596,9 @@
     margin-bottom: 50px;
     grid-template-columns: 1fr;
     grid-template-rows: 30px 220px 220px;
-    grid-template-areas: "titulo" "clarin"  "lanacion";
+    grid-template-areas: "titulo"
+ "clarin" 
+ "lanacion";
     gap: 20px; }
     .notasDiario .tituloDiario {
       color: #ed1650;
@@ -650,17 +659,17 @@
   /* FIN FOTOS */
   /* VIDEOS */
   .videos {
+    width: 100%;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around; }
+    flex-direction: column; }
     .videos .galeriaVideos {
+      width: 80%;
       margin-bottom: 30px;
-      width: 100%;
-      margin-left: 40px; }
+      margin-left: auto;
+      margin-right: auto; }
       .videos .galeriaVideos iframe {
-        width: 400px;
-        height: 225px; }
+        width: 370px;
+        height: 208px; }
   /* FIN VIDEOS */
   /* CRONOLOGIA */
   .tituloPrincipal {
