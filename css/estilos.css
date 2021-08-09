@@ -665,11 +665,10 @@
     .videos .galeriaVideos {
       width: 80%;
       margin-bottom: 30px;
-      margin-left: auto;
-      margin-right: auto; }
+      text-align:center; }
       .videos .galeriaVideos iframe {
-        width: 300px;
-        height: 160px; }
+        width: 320px;
+        height: 180px; }
   /* FIN VIDEOS */
   /* CRONOLOGIA */
   .tituloPrincipal {
